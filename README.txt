@@ -4,13 +4,13 @@ PURPOSE
 	This plugin outputs a JSON file containing player locations for use with various Minecraft mapping software.
 	
 INSTALLATION
-	1. Put MapMarkers.jar in your plugins folder
-	2. Put MapMarkers.yml where craftbukkit.jar is
+	1. Put MapMarkers.jar in your plugins folder and start minecraft
+	2. Edit config.yml (see below) in your plugins/MapMarkers folder - stop/start server
 	
 SETUP FOR MINECRAFT OVERVIEWER (Courtesy of FlukiestEmperor)
 	0. Perform installation (see above)
-	1. Edit MapMarkers.yml so that markers.json is placed in the same folder as your Minecraft Overviewer output
-		Alternatively don't edit MapMarkers.yml, make a symlink (Linux):
+	1. Edit config.yml so that markers.json is placed in the same folder as your Minecraft Overviewer output
+		Alternatively don't edit config.yml, make a symlink (Linux):
 			ln -s path/to/minecraft/server/bin/world/markers.json path/to/minecraft/map/markers.json
 	2. Put player.png, player.php, and player_markers.js where the overviewer index.html is. (Optionally web_assets in your overviewer source directory)
 		If you don't want to use player skins as the markers (requires PHP, allow_url_fopen, and ideally write permissions by your PHP user), copy player_markers_noskin.js and rename it to player_markers.js
@@ -20,8 +20,8 @@ SETUP FOR MINECRAFT OVERVIEWER (Courtesy of FlukiestEmperor)
 	
 SETUP FOR PIGMAP
 	0. Perform installation (see above)
-	1. Edit MapMarkers.yml so that markers.json is placed in the same folder as your Pigmap output
-		Alternatively don't edit MapMarkers.yml, make a symlink (Linux):
+	1. Edit config.yml so that markers.json is placed in the same folder as your Pigmap output
+		Alternatively don't edit config.yml, make a symlink (Linux):
 			ln -s path/to/minecraft/server/bin/world/markers.json path/to/minecraft/map/markers.json
 	2. Put player.png, player.php, and player_markers.js where the pigmap HTML is.
 		If you don't want to use player skins as the markers (which requires PHP, allow_url_fopen, and ideally write permissions by your PHP user), copy player_markers_noskin.js and rename it to player_markers.js

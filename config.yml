@@ -1,4 +1,4 @@
-interval: 15000
+saveInterval: 3000
 outputFile: world/markers.json
 dateFormat: yyyyMMdd HH:mm:ss
 writeSpawn: false

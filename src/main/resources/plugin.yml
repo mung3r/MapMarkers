@@ -1,0 +1,5 @@
+name: MapMarkers
+
+main: com.MapMarkers.TJ09.MapMarkers
+
+version: 0.3.2
